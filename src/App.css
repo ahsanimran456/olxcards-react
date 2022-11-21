@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    padding: 7px 10px;
+}
+
+.compnents {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    width: 2.2rem;
+    height: 2rem;
+    fill: #3a77ff;
+    margin-right: 20px;
+}
+
+.motors svg {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.component2 {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo1 svg {
+    height: 2rem;
+
+}
+
+.seachbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0 25px;
+    align-items: center;
+    width: 70%;
+}
+
+.searchbox1 {
+    border: 2px solid #012f34;
+    border-radius: 4px;
+    display: flex;
+    height: 48px;
+    max-height: 100%;
+    align-items: center;
+}
+
+.searchicon {
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    height: 1.9rem
+}
+
+.inputsearch input {
+    outline: unset;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+
+}
+
+.searchbox2{
+    margin-left: 20px;
+    display: flex;
+}
+
+.input2 input{
+    height: 48px;
+    border: 2px solid #012f34;
+    border-radius: 4px;
+    padding-left:10px ;
+}
+.searchicon2 {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002f34;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+
+}
+
+.loginbtn span{
+    color: #002f34;
+    font-weight: 800;
+    text-decoration:underline  ;
+    text-underline-offset: 2px ;
+    cursor: pointer;
+
+}
+.loginbtn span:hover{
+    text-decoration: none;
+}
+.sellbtn{
+    display: flex;
+}
+.sellbtnimg img{
+    position: relative ; 
+}
+.sellinner{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.sellinner{
+    display: flex;
+}
+/* cards cs  */
+
+
+.allcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 16rem;
+    margin: 20px 10px;
+    border: 0.1rem solid rgba(0,47,52,.2);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.card-img img{
+    width: 16rem;
+    height: 12rem;
+    cursor: pointer;
+    
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 9px;
+    margin-bottom:unset !important ;
+}
+.carddescription p{
+    margin: 0;
+    padding-right:7px ;
+    cursor: pointer;
+}
+.heart img{
+    height: 1.4rem;
+    width: 1.4rem;
+    cursor: pointer;
+}
+.price{
+    padding: 7px 9px;
+}
+.price span{
+    bottom: 0;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+@media screen and  (max-width:400px) {
+    .logo1 {
+        margin-bottom: 10px;
+    }
+    .searchbox1{
+        margin-bottom: 10px !important;
+    }
+    .sellbtnimg {
+        margin-top: 10px;
+    }
+    .sellinner {
+        position: absolute;
+        margin-top: 21px;}
+
+}
